@@ -1,0 +1,9 @@
+language: cpp
+
+dist: trusty
+
+os:
+- linux
+
+compiler: 
+- gcc
