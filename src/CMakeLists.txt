@@ -5,4 +5,6 @@ set (CMAKE_CXX_FLAGS_DEBUG "-g")
 set (CMAKE_CXX_FLAGS_RELEASE "-O3")
 
 add_executable(Tutorial tutorial.cpp)
-
+enable_testing()
+add_test( SQRT-1 Tutorial 1 )
+add_test( SQRT-4 Tutorial 4 )
